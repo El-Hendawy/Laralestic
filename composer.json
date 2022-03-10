@@ -1,0 +1,11 @@
+{
+    "name": "El-Hendawy/laralestic",
+    "description": "A hello world composer private package.",
+    "autoload": {
+        "psr-4": {
+            "Hendawy\\Elasticsearch\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
