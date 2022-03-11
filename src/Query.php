@@ -1,15 +1,15 @@
 <?php
 
-namespace Omar\Laralectic;
+namespace Omar\Laralestic;
 
-use Omar\Laralectic\Classes\Bulk;
-use Omar\Laralectic\Classes\Search;
-use Omar\Laralectic\Collection;
+use Omar\Laralestic\Classes\Bulk;
+use Omar\Laralestic\Classes\Search;
+use Omar\Laralestic\Collection;
 
 
 /**
  * Class Query
- * @package Omar\Laralectic\Query
+ * @package Omar\Laralestic\Query
  */
 class Query
 {
@@ -157,7 +157,7 @@ class Query
 
     /**
      * Elastic model instance
-     * @var \Omar\Laralectic\Model
+     * @var \Omar\Laralestic\Model
      */
     public $model;
 

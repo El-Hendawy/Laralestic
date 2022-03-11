@@ -1,10 +1,10 @@
 <?php
 
-namespace Omar\Laralectic;
+namespace Omar\Laralestic;
 
 /**
  * Class Request
- * @package Omar\Laralectic
+ * @package Omar\Laralestic
  */
 class Request
 {

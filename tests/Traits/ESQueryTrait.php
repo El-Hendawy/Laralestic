@@ -1,8 +1,8 @@
 <?php
 
-namespace Omar\Laralectic\Tests\Traits;
+namespace Omar\Laralestic\Tests\Traits;
 
-use Omar\Laralectic\Query;
+use Omar\Laralestic\Query;
 
 /**
  * Class ESQueryTrait

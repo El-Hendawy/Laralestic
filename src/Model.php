@@ -1,6 +1,6 @@
 <?php
 
-namespace Omar\Laralectic;
+namespace Omar\Laralestic;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 /**
  * Elasticsearch data model
  * Class Model
- * @package Omar\Laralectic
+ * @package Omar\Laralestic
  */
 class Model
 {

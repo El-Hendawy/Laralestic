@@ -40,19 +40,19 @@ $ composer require el-hendawy/laralestic
 ##### 2) Add package service provider (< laravel 5.5).
 
 ```php
-Omar\Laralectic\LaralecticServiceProvider::class
+Omar\Laralestic\LaralecticServiceProvider::class
 ```
 
 ##### 3) Add package alias (< laravel 5.5).
 
 ```php
-'ES' => Omar\Laralectic\Facades\ES::class
+'ES' => Omar\Laralestic\Facades\ES::class
 ```
 	
 ##### 4) Publishing.
 
 ```bash
-$ php artisan vendor:publish --provider="Omar\Laralectic\LaralecticServiceProvider"
+$ php artisan vendor:publish --provider="Omar\Laralestic\LaralecticServiceProvider"
 ```
 
 ### <u>Lumen Installation</u>
@@ -65,7 +65,7 @@ $ composer require el-hendawy/laralestic
 ##### 2) Add package service provider in `bootstrap/app.php`.
 
 ```php
-$app->register(Omar\Laralectic\LaralecticServiceProvider::class);
+$app->register(Omar\Laralestic\LaralecticServiceProvider::class);
 ```
 	
 ##### 3) Copy package config directory `vendor/el-hendawy/laralestic/src/config` to root folder alongside with `app` directory.
@@ -99,7 +99,7 @@ $ composer require el-hendawy/laralestic
 
 ```php
 require "vendor/autoload.php";
-use Omar\Laralectic\Connection;
+use Omar\Laralestic\Connection;
 $connection = Connection::create([
     'servers' => [
         [
@@ -322,7 +322,7 @@ Models allow you to query for data in your types or indices, as well as insert n
 ```php
 <?php
 namespace App;
-use Omar\Laralectic\Model;
+use Omar\Laralestic\Model;
 class Post extends Model
 {
         
@@ -336,7 +336,7 @@ The above example will use the default connection and default index in `es.php`.
 ```php
 <?php
 namespace App;
-use Omar\Laralectic\Model;
+use Omar\Laralestic\Model;
 class Post extends Model
 {
     
@@ -445,14 +445,14 @@ Scopes should always return a Query instance.
 ```php
 <?php
 namespace App;
-use Omar\Laralectic\Model;
+use Omar\Laralestic\Model;
 class Post extends Model
 {
     /**
      * Scope a query to only include popular posts.
      *
-     * @param \Omar\Laralectic\Query $query
-     * @return \Omar\Laralectic\Query
+     * @param \Omar\Laralestic\Query $query
+     * @return \Omar\Laralestic\Query
      */
     public function scopePopular($query, $votes)
     {
@@ -461,8 +461,8 @@ class Post extends Model
     /**
      * Scope a query to only include active posts.
      *
-     * @param \Omar\Laralectic\Query $query
-     * @return \Omar\Laralectic\Query
+     * @param \Omar\Laralestic\Query $query
+     * @return \Omar\Laralestic\Query
      */
     public function scopeActive($query)
     {
@@ -487,7 +487,7 @@ To define an `accessor`, create a getFooAttribute method on your model where `Fo
 ```php
 <?php
 namespace App;
-use Omar\Laralectic\Model;
+use Omar\Laralestic\Model;
 class post extends Model
 {
     /**
@@ -534,7 +534,7 @@ To define a mutator, define a `setFooAttribute` method on your model where `Foo`
 ```php
 <?php
 namespace App;
-use Omar\Laralectic\Model;
+use Omar\Laralestic\Model;
 class post extends Model
 {
     /**
@@ -572,7 +572,7 @@ For example, let's cast the `is_published` attribute, which is stored in our ind
 ```php
 <?php
 namespace App;
-use Omar\Laralectic\Model;
+use Omar\Laralestic\Model;
 class Post extends Model
 {
     /**

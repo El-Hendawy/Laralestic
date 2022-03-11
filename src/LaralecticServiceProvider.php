@@ -1,21 +1,21 @@
 <?php
 
-namespace Omar\Laralectic;
+namespace Omar\Laralestic;
 
-use Omar\Laralectic\Commands\ReindexCommand;
+use Omar\Laralestic\Commands\ReindexCommand;
 use Elasticsearch\ClientBuilder as ElasticBuilder;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Scout\EngineManager;
 use Illuminate\Support\Str;
-use Omar\Laralectic\Commands\ListIndicesCommand;
-use Omar\Laralectic\Commands\CreateIndexCommand;
-use Omar\Laralectic\Commands\DropIndexCommand;
-use Omar\Laralectic\Commands\UpdateIndexCommand;
+use Omar\Laralestic\Commands\ListIndicesCommand;
+use Omar\Laralestic\Commands\CreateIndexCommand;
+use Omar\Laralestic\Commands\DropIndexCommand;
+use Omar\Laralestic\Commands\UpdateIndexCommand;
 
 /**
  * Class LaralecticServiceProvider
- * @package Omar\Laralectic
+ * @package Omar\Laralestic
  */
 class LaralecticServiceProvider extends ServiceProvider
 {
