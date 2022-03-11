@@ -1,6 +1,6 @@
 <?php
 
-namespace Hendawy\Elasticsearch\Facades;
+namespace Omar\Laralectic\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

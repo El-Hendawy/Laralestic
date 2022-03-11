@@ -31,7 +31,7 @@ if ( ! function_exists('is_callback_function'))
 if (!function_exists('array_except')) {
     /**
      * Provide array_except helper. This is normally available in Laravel, however, not in Lumen.
-     * Hendawy\Elasticsearch requires this
+     * Omar\Laralectic requires this
      *
      * @param array $array
      * @param array $exclude

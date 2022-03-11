@@ -1,6 +1,6 @@
 <?php
 
-namespace Hendawy\Elasticsearch\Commands;
+namespace Omar\Laralectic\Commands;
 
 use Illuminate\Console\Command;
 

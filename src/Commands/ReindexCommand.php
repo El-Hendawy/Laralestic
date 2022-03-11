@@ -1,12 +1,12 @@
 <?php
 
-namespace Hendawy\Elasticsearch\Commands;
+namespace Omar\Laralectic\Commands;
 
 use Illuminate\Console\Command;
 
 /**
  * Class ReindexCommand
- * @package Hendawy\Elasticsearch\Commands
+ * @package Omar\Laralectic\Commands
  */
 class ReindexCommand extends Command
 {

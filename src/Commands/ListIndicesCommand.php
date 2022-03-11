@@ -1,13 +1,13 @@
 <?php
 
-namespace Hendawy\Elasticsearch\Commands;
+namespace Omar\Laralectic\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 
 /**
  * Class ListIndicesCommand
- * @package Hendawy\Elasticsearch\Commands
+ * @package Omar\Laralectic\Commands
  */
 class ListIndicesCommand extends Command
 {

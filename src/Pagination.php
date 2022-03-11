@@ -1,6 +1,6 @@
 <?php
 
-namespace Hendawy\Elasticsearch;
+namespace Omar\Laralectic;
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\UrlWindow;

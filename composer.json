@@ -1,11 +1,60 @@
 {
-    "name": "El-Hendawy/laralestic",
-    "description": "A hello world composer private package.",
+    "name": "omar/laralestic",
+    "description": "Laravel, Lumen and Native php Elasticseach & Opensearch query builder to build complex queries using an elegant syntax ORM",
+    "license": "MIT",
+    "type": "package",
+    "keywords": [
+        "elasticsearch",
+        "php",
+        "laravel",
+        "lumen",
+        "scout",
+        "fulltext",
+        "indexing",
+        "builder",
+        "opensearch",
+        "ORM"
+    ],
+    "homepage": "https://www.linkedin.com/in/omarelhendawy/",
     "autoload": {
         "psr-4": {
-            "Hendawy\\Elasticsearch\\": "src/"
+            "Omar\\Laralestic\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omar\\Laralestic\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "authors": [
+        {
+            "name": "El-Hendawy",
+            "email": "omar.el.hendawt@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "elasticsearch/elasticsearch": "^6.0|^7.0",
+        "illuminate/pagination": "*",
+        "illuminate/support": "*",
+        "symfony/var-dumper": "*",
+        "monolog/monolog": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Omar\\Laralectic\\LaralecticServiceProvider"
+            ],
+            "aliases": {
+                "ES": "Omar\\Laralectic\\Facades\\ES"
+            }
+        }
+    }
+
 }

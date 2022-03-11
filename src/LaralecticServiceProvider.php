@@ -1,27 +1,27 @@
 <?php
 
-namespace Hendawy\Elasticsearch;
+namespace Omar\Laralectic;
 
-use Hendawy\Elasticsearch\Commands\ReindexCommand;
+use Omar\Laralectic\Commands\ReindexCommand;
 use Elasticsearch\ClientBuilder as ElasticBuilder;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Scout\EngineManager;
 use Illuminate\Support\Str;
-use Hendawy\Elasticsearch\Commands\ListIndicesCommand;
-use Hendawy\Elasticsearch\Commands\CreateIndexCommand;
-use Hendawy\Elasticsearch\Commands\DropIndexCommand;
-use Hendawy\Elasticsearch\Commands\UpdateIndexCommand;
+use Omar\Laralectic\Commands\ListIndicesCommand;
+use Omar\Laralectic\Commands\CreateIndexCommand;
+use Omar\Laralectic\Commands\DropIndexCommand;
+use Omar\Laralectic\Commands\UpdateIndexCommand;
 
 /**
- * Class ElasticsearchServiceProvider
- * @package Hendawy\Elasticsearch
+ * Class LaralecticServiceProvider
+ * @package Omar\Laralectic
  */
-class ElasticsearchServiceProvider extends ServiceProvider
+class LaralecticServiceProvider extends ServiceProvider
 {
 
     /**
-     * ElasticsearchServiceProvider constructor.
+     * LaralecticServiceProvider constructor.
      * @param Application $app
      */
     function __construct($app)

@@ -1,10 +1,10 @@
 <?php
 
-namespace Hendawy\Elasticsearch;
+namespace Omar\Laralectic;
 
 /**
  * Class Request
- * @package Hendawy\Elasticsearch
+ * @package Omar\Laralectic
  */
 class Request
 {

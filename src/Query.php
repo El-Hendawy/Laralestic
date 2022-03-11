@@ -1,15 +1,15 @@
 <?php
 
-namespace Hendawy\Elasticsearch;
+namespace Omar\Laralectic;
 
-use Hendawy\Elasticsearch\Classes\Bulk;
-use Hendawy\Elasticsearch\Classes\Search;
-use Hendawy\Elasticsearch\Collection;
+use Omar\Laralectic\Classes\Bulk;
+use Omar\Laralectic\Classes\Search;
+use Omar\Laralectic\Collection;
 
 
 /**
  * Class Query
- * @package Hendawy\Elasticsearch\Query
+ * @package Omar\Laralectic\Query
  */
 class Query
 {
@@ -157,7 +157,7 @@ class Query
 
     /**
      * Elastic model instance
-     * @var \Hendawy\Elasticsearch\Model
+     * @var \Omar\Laralectic\Model
      */
     public $model;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Hendawy\Elasticsearch;
+namespace Omar\Laralectic;
 
 /**
  * Class Index
- * @package Hendawy\Elasticsearch\Query
+ * @package Omar\Laralectic\Query
  */
 class Index
 {

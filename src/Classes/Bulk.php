@@ -1,12 +1,12 @@
 <?php
 
-namespace Hendawy\Elasticsearch\Classes;
+namespace Omar\Laralectic\Classes;
 
-use Hendawy\Elasticsearch\Query;
+use Omar\Laralectic\Query;
 
 /**
  * Class Bulk
- * @package Hendawy\Elasticsearch\Classes
+ * @package Omar\Laralectic\Classes
  */
 class Bulk
 {

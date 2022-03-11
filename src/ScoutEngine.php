@@ -1,6 +1,6 @@
 <?php
 
-namespace Hendawy\Elasticsearch;
+namespace Omar\Laralectic;
 
 use Laravel\Scout\Builder;
 use Laravel\Scout\Engines\Engine;
