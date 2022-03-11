@@ -24,6 +24,7 @@
             "src/helpers.php"
         ]
     },
+    "minimum-stability":"dev",
     "autoload-dev": {
         "psr-4": {
             "Omar\\Laralestic\\Tests\\": "tests/"
