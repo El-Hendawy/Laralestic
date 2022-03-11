@@ -1,2 +1,2 @@
-# laralestic
-Laravel &amp; Lumen Elasticsearch &amp; Opensearch Package
+# Laralestic
+Laravel And Lumen Opensearch &amp; Elasticsearch package
