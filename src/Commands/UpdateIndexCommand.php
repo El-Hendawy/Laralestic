@@ -1,6 +1,6 @@
 <?php
 
-namespace Omar\Laralectic\Commands;
+namespace Omar\Laralestic\Commands;
 
 use Illuminate\Console\Command;
 

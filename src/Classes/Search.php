@@ -1,12 +1,12 @@
 <?php
 
-namespace Omar\Laralectic\Classes;
+namespace Omar\Laralestic\Classes;
 
-use Omar\Laralectic\Query;
+use Omar\Laralestic\Query;
 
 /**
  * Class Search
- * @package Omar\Laralectic\Classes
+ * @package Omar\Laralestic\Classes
  */
 class Search
 {

@@ -6,10 +6,10 @@
  * Time: 19:58
  */
 
-namespace Omar\Laralectic\Tests;
+namespace Omar\Laralestic\Tests;
 
 
-use Omar\Laralectic\Connection;
+use Omar\Laralestic\Connection;
 use Elasticsearch\ClientBuilder;
 use Monolog\Logger;
 

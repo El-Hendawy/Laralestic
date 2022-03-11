@@ -1,13 +1,13 @@
 <?php
 
-namespace Omar\Laralectic;
+namespace Omar\Laralestic;
 
 use Elasticsearch\ClientBuilder;
 use Illuminate\Support\Arr;
 
 /**
  * Class Connection
- * @package Omar\Laralectic
+ * @package Omar\Laralestic
  */
 class Connection
 {

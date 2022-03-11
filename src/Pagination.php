@@ -1,6 +1,6 @@
 <?php
 
-namespace Omar\Laralectic;
+namespace Omar\Laralestic;
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\UrlWindow;

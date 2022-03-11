@@ -1,8 +1,8 @@
 <?php
 
-namespace Omar\Laralectic\Elasticsearch\Tests;
+namespace Omar\Laralestic\Elasticsearch\Tests;
 
-use Omar\Laralectic\Tests\Traits\ESQueryTrait;
+use Omar\Laralestic\Tests\Traits\ESQueryTrait;
 
 class WhereTest extends \PHPUnit_Framework_TestCase
 {

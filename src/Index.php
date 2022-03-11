@@ -1,10 +1,10 @@
 <?php
 
-namespace Omar\Laralectic;
+namespace Omar\Laralestic;
 
 /**
  * Class Index
- * @package Omar\Laralectic\Query
+ * @package Omar\Laralestic\Query
  */
 class Index
 {
