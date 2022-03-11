@@ -1,8 +1,8 @@
 <?php
 
-namespace Omar\Laralectic\Tests;
+namespace Omar\Laralestic\Tests;
 
-use Omar\Laralectic\Tests\Traits\ESQueryTrait;
+use Omar\Laralestic\Tests\Traits\ESQueryTrait;
 
 class TakeTest extends \PHPUnit_Framework_TestCase
 {

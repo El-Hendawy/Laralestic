@@ -1,12 +1,12 @@
 <?php
 
-namespace Omar\Laralectic\Commands;
+namespace Omar\Laralestic\Commands;
 
 use Illuminate\Console\Command;
 
 /**
  * Class ReindexCommand
- * @package Omar\Laralectic\Commands
+ * @package Omar\Laralestic\Commands
  */
 class ReindexCommand extends Command
 {

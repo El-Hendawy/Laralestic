@@ -1,13 +1,13 @@
 <?php
 
-namespace Omar\Laralectic\Commands;
+namespace Omar\Laralestic\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 
 /**
  * Class ListIndicesCommand
- * @package Omar\Laralectic\Commands
+ * @package Omar\Laralestic\Commands
  */
 class ListIndicesCommand extends Command
 {

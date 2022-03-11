@@ -1,6 +1,6 @@
 <?php
 
-namespace Omar\Laralectic\Facades;
+namespace Omar\Laralestic\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
