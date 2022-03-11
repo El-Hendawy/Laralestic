@@ -1,5 +1,5 @@
 {
-    "name": "omar/laralestic",
+    "name": "el-hendawy/laralestic",
     "description": "Laravel, Lumen and Native php Elasticseach & Opensearch query builder to build complex queries using an elegant syntax ORM",
     "license": "MIT",
     "type": "package",
