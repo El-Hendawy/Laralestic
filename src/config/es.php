@@ -40,6 +40,9 @@ return [
 
             ],
 
+            // Set false to skip certificate verification in local developer setup
+            'verify_ssl' => env('ELASTIC_VERIFY_SSL', true),
+
             'index' => env('ELASTIC_INDEX', 'my_index'),
 
             // Elasticsearch handlers
