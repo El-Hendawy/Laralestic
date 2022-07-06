@@ -104,6 +104,8 @@ class Connection
             // Instantiate a new ClientBuilder
             $clientBuilder = ClientBuilder::create();
 
+            $clientBuilder->setSSLVerification($config["verify_ssl"]);
+
             $clientBuilder->setHosts($config["servers"]);
 
             $clientBuilder = self::configureLogging($clientBuilder,$config);

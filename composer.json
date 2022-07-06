@@ -24,7 +24,7 @@
             "src/helpers.php"
         ]
     },
-    "minimum-stability":"dev",
+    "minimum-stability": "dev",
     "autoload-dev": {
         "psr-4": {
             "Omar\\Laralestic\\Tests\\": "tests/"
@@ -50,12 +50,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Omar\\Laralectic\\LaralecticServiceProvider"
+                "Omar\\Laralestic\\LaralecticServiceProvider"
             ],
             "aliases": {
-                "ES": "Omar\\Laralectic\\Facades\\ES"
+                "ES": "Omar\\Laralestic\\Facades\\ES"
             }
         }
     }
-
 }

@@ -950,12 +950,12 @@ class Query
 
                 $model->setConnection($model->getConnection());
                 $model->setIndex($row["_index"]);
-                $model->setType($row["_type"]);
+                $model->setType($row["_type"] ?? NULL);
 
                 // match earlier version
 
                 $model->_index = $row["_index"];
-                $model->_type = $row["_type"];
+                $model->_type = $row["_type"] ?? NULL;
                 $model->_id = $row["_id"];
                 $model->_score = $row["_score"];
 
