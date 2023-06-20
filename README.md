@@ -40,7 +40,7 @@ $ composer require el-hendawy/laralestic
 ##### 2) Add package service provider (< laravel 5.5).
 
 ```php
-Omar\Laralestic\LaralecticServiceProvider::class
+Omar\Laralestic\LaralesticServiceProvider::class
 ```
 
 ##### 3) Add package alias (< laravel 5.5).
@@ -52,7 +52,7 @@ Omar\Laralestic\LaralecticServiceProvider::class
 ##### 4) Publishing.
 
 ```bash
-$ php artisan vendor:publish --provider="Omar\Laralestic\LaralecticServiceProvider"
+$ php artisan vendor:publish --provider="Omar\Laralestic\LaralesticServiceProvider"
 ```
 
 ### <u>Lumen Installation</u>
@@ -65,7 +65,7 @@ $ composer require el-hendawy/laralestic
 ##### 2) Add package service provider in `bootstrap/app.php`.
 
 ```php
-$app->register(Omar\Laralestic\LaralecticServiceProvider::class);
+$app->register(Omar\Laralestic\LaralesticServiceProvider::class);
 ```
 	
 ##### 3) Copy package config directory `vendor/el-hendawy/laralestic/src/config` to root folder alongside with `app` directory.

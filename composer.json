@@ -50,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Omar\\Laralestic\\LaralecticServiceProvider"
+                "Omar\\Laralestic\\LaralesticServiceProvider"
             ],
             "aliases": {
                 "ES": "Omar\\Laralestic\\Facades\\ES"
