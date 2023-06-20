@@ -18,7 +18,7 @@
     "homepage": "https://www.linkedin.com/in/omarelhendawy/",
     "autoload": {
         "psr-4": {
-            "Omar\\Laralestic\\": "src/"
+            "Omar\\Laralestic\\": "vendor/el-hendawy/laralestic/src/"
         },
         "files": [
             "src/helpers.php"
