@@ -62,7 +62,10 @@ class LaralesticServiceProvider extends ServiceProvider
                     $config = config('es.connections.' . config('scout.es.connection'));
 
                     return new ScoutEngine(
-                        ElasticBuilder::create()->setHosts($config["servers"])->build(),
+                        ElasticBuilder::create()
+                            ->setHosts($config["servers"])
+                            ->setSSLVerification($config["verify_ssl"])
+                            ->build(),
                         $config["index"]
                     );
 
