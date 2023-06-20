@@ -37,7 +37,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=8.0",
         "elasticsearch/elasticsearch": "^6.0|^7.0",
         "illuminate/pagination": "*",
         "illuminate/support": "*",
@@ -45,7 +45,7 @@
         "monolog/monolog": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "7.2"
+        "phpunit/phpunit": "^9.0"
     },
     "extra": {
         "laravel": {
