@@ -14,14 +14,14 @@ use Omar\Laralestic\Commands\DropIndexCommand;
 use Omar\Laralestic\Commands\UpdateIndexCommand;
 
 /**
- * Class LaralecticServiceProvider
+ * Class LaralesticServiceProvider
  * @package Omar\Laralestic
  */
-class LaralecticServiceProvider extends ServiceProvider
+class LaralesticServiceProvider extends ServiceProvider
 {
 
     /**
-     * LaralecticServiceProvider constructor.
+     * LaralesticServiceProvider constructor.
      * @param Application $app
      */
     function __construct($app)
